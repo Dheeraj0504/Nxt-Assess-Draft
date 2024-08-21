@@ -1,0 +1,116 @@
+.assessment-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  order: 1;
+}
+.next-question-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.single-select-note-container {
+  display: flex;
+  align-items: center;
+  background-color: #fef3c7;
+  color: #d97706;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.single-select-note-icon {
+  margin-right: 7px;
+}
+.next-button {
+  width: 140px;
+  height: 40px;
+  background-color: #164687;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.summary-timer-container {
+  margin-bottom: 30px;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #475987;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.time-heading {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+}
+.timer {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+}
+.MCQ-details-contiainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .assessment-container {
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .questions-container {
+    width: 64vw;
+    padding: 40px;
+    order: 0;
+  }
+  .next-question-button-container {
+    flex-direction: row;
+    margin: 0px;
+  }
+  .single-select-note-container {
+    margin-right: 160px;
+    margin-bottom: 0px;
+  }
+  .summary-timer-container {
+    margin-left: 30px;
+  }
+  .timer-container {
+    width: 29vw;
+  }
+  .MCQ-details-contiainer {
+    width: 29vw;
+    height: 83vh;
+  }
+}

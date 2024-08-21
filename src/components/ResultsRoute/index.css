@@ -1,0 +1,85 @@
+.results-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px;
+}
+.sumbit-timeUp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  padding: 40px;
+}
+
+.result-image {
+  width: 264px;
+  height: 170px;
+  top: 133px;
+  left: 48px;
+  padding: 4.19px 8.31px 2.1px 6.24px;
+  gap: 0px;
+  opacity: 0px;
+}
+.congrats-text {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.description {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.score-text {
+  color: #164687;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.reattempt-btn {
+  background-color: #164687;
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  padding: 8px 32px 8px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .sumbit-timeUp-container {
+    width: 818px;
+    height: 624px;
+    padding: 50px;
+  }
+  .result-image {
+    width: 604px;
+    height: 386px;
+    top: 203px;
+    left: 418px;
+    padding: 9.53px 19.02px 4.77px 14.27px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .congrats-text {
+    font-size: 36px;
+  }
+  .congrats {
+    font-size: 24px;
+  }
+}
